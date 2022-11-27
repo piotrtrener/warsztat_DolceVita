@@ -171,6 +171,10 @@ p {
   background-color: #74030e;
 }
 
+.headings {
+  width: 100%;
+  text-align: center;
+}
 .headings--h1 {
   color: #eff0f3;
   font-size: 6rem;
@@ -187,8 +191,6 @@ p {
 }
 .headings--h2 {
   font-size: 5rem;
-  width: 100%;
-  text-align: center;
 }
 
 .btn {
@@ -249,8 +251,6 @@ p {
 .site-header__h1 {
   position: absolute;
   bottom: 40%;
-  width: 100%;
-  text-align: center;
 }
 .site-header__button {
   position: absolute;
@@ -258,6 +258,14 @@ p {
   margin: 0 auto;
   left: 0;
   right: 0;
+}
+
+.site-section {
+  min-height: 70vh;
+  padding-top: 3rem;
+}
+.site-section--bg-color {
+  background-color: #504533;
 }
 
 /*# sourceMappingURL=main.css.map */
